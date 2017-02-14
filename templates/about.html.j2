@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+{% include 'head.html.j2' %}
+
+<body>
+  <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+  {% include 'header.html.j2' %}
+  {% include 'drawer.html.j2' %}
+  <main class="mdl-layout__content mdl-color--grey-100">
+    <div class="mdl-grid demo-conten">
+      <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col">
+        <div class="mdl-card__media mdl-color-text--grey-50 demo-card-header">
+          <h3>About service</h3>
+        </div>
+        <div class="mdl-color-text--grey-700 mdl-card__supporting-text">
+          <p><b>빚을 갚지 않는 자들을 위한 서비스</b></p>
+          <p>돈을 갚읍시다</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+</body>
