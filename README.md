@@ -7,10 +7,11 @@ Powered by python3, flask, jinja2, mdl
 ## 구현된 기능
 
 ```
-/user/{{ id }}
+/user/{{ id }} 또는 /
 ```
 
-입력된 id를 그대로 왼편의 Drawer에 표시해 줍니다. (`{{ id }}@gon.kaist.ac.kr`의 형식으로 표시)
+입력된 id를 그대로 왼편의 drawer에 표시해 줍니다. (`{{ id }}@gon.kaist.ac.kr`의 형식으로 표시)<br>
+왼편의 drawer에서 Home을 클릭하면, `/user/{{ id }}` 또는 `/`로 돌아갑니다. 어느 쪽으로 돌아가는지는 처음에 입력된 URL에 따라 다릅니다.
 
 ```
 /about
