@@ -1,6 +1,6 @@
-<header class="demo-header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-600">
+<header class="demo-header mdl-layout__header mdl-color--blue-grey-700 mdl-color-text--blue-grey-50">
   <div class="mdl-layout__header-row">
-    <span class="mdl-layout-title">Home</span>
+    <span class="mdl-layout-title">{% if title -%} {{ title }} {%- else -%} Home {%- endif %}</span>
     <div class="mdl-layout-spacer"></div>
     <!--
     <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
