@@ -88,6 +88,7 @@ html, body {
   position: absolute;
   z-index: -1;
   height: inherit;
+  width: inherit;
 }
 
 .demo-avatar-dropdown {
@@ -270,9 +271,12 @@ _:-ms-input-placeholder, :root .demo-graph {
   align-items: center;
 }
 
-.demo-card-header {
+.about-card-header {
   padding: 0px 64px;
-  background: #37474F;
+  background: url('../images/logo_big_low_opacity.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .mdl-card .mdl-card__supporting-text {
